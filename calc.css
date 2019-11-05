@@ -10,6 +10,8 @@ body {
     width: 400px;
     background: black;
     color: white;
+    display: block;
+    margin: 0 auto;
 }
 
 .screen {
@@ -38,6 +40,12 @@ body {
     background-color: limegreen;
 }
 
+.calc-button:last-child {
+    background-color: orange;
+}
+.calc-button:last-child:active {
+    background-color: darkgrey;
+}
 .double {
     width: 49.7%;
 }
@@ -50,5 +58,6 @@ body {
     display: flex;
     align-content: stretch;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
 }
+
